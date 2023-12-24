@@ -4,7 +4,7 @@
 `idle`, `waiting for invitation`, `invited`, `in game`, `invitation rejected`, `invited but no respond`, `invitaion timeout`, `opponent quitted`
 
 ## Kịch bản mời người chơi khác
-**Chú thích:** trạng thái của người chơi được đặt trong `code inline block`
+**Chú thích:** trạng thái của người chơi được đặt trong `code inline block`.
 **Nhận xét**: Trạng thái người dùng sẽ trở về `idle` khi ở [[Online Home Page]], tạo thành một vòng lặp.
 - Giả sử, người chơi 1 (`idle`) ở **Máy 1** mời người chơi 2 (`idle`) ở **Máy 2**. Cả hai người chơi đều đang ở **Online Home Page**. Hành động: Người chơi 1 nhấn vào người chơi 2.
 - Người chơi 1 (`waiting for invitaion`) chờ người chơi 2 (`invited`) đồng ý để bắt đầu ván chơi. **Máy 1** hiện ra [[Challenge Dialog]]. **Máy 2** hiện ra [[Invited Dialog]]. [Challenge Dialog](Challenge%20Dialog.md) 
