@@ -1,5 +1,5 @@
 ---
-title: ⭕❌ Tic-tac-toe Project
+title: Tic-tac-toe Project Document
 ---
 
 ## Related
