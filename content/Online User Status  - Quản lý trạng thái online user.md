@@ -1,15 +1,11 @@
----
-quickshare-date: 2023-12-23 22:12:28
-quickshare-url: "https://noteshare.space/note/clqi78um41142201mw3lv51f3t#4uuP048KVpME8z7BkKCk7R5uhQowzgSX7O21iLSfPS4"
----
 #tic_tac_toe_project 
 
 ## Các trạng thái của người dùng onine
 `idle`, `waiting for invitation`, `invited`, `in game`, `invitation rejected`, `invited but no respond`, `invitaion timeout`, `opponent quitted`
 
 ## Kịch bản mời người chơi khác
-***Chú thích:** trạng thái của người chơi được đặt trong `code inline block`*
-***Suy luận**: Trạng thái người dùng kiểu gì cũng trở về `idle`, tạo thành một vòng lặp.*
+**Chú thích:** trạng thái của người chơi được đặt trong `code inline block`
+**Nhận xét**: Trạng thái người dùng sẽ trở về `idle` khi ở [[Online Home Page]], tạo thành một vòng lặp.
 - Giả sử, người chơi 1 (`idle`) ở **Máy 1** mời người chơi 2 (`idle`) ở **Máy 2**. Cả hai người chơi đều đang ở **Online Home Page**. Hành động: Người chơi 1 nhấn vào người chơi 2.
 - Người chơi 1 (`waiting for invitaion`) chờ người chơi 2 (`invited`) đồng ý để bắt đầu ván chơi. **Máy 1** hiện ra [[Challenge Dialog]]. **Máy 2** hiện ra [[Invited Dialog]]. [Challenge Dialog](Challenge%20Dialog.md) 
 	- Người chơi 2 nhấn nút accept để bắt đầu ván cờ => Người chơi 1 và 2 (`in game`). **Máy 1** và **Máy 2** chuyển đến [[Online Game Page]] và ván cờ bắt đầu, bắt đầu từ người chơi 1. *P/S: Trường hợp 1 là thường là trường hợp thành công.*
