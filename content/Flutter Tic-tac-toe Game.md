@@ -1,4 +1,6 @@
-#tic_tac_toe_project 
+---
+title: ❌⭕ Tic-tac-toe Project
+---
 
 ## Related
 - [Hiển thị danh sách những người chơi online khác](Hiển%20thị%20danh%20sách%20những%20người%20chơi%20online%20khác.md) 
