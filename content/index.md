@@ -5,7 +5,6 @@ title: Tic-tac-toe Project Document
 ## Related
 - [Hiển thị danh sách những người chơi online khác](Hiển%20thị%20danh%20sách%20những%20người%20chơi%20online%20khác.md) 
 - [Online User Status  - Quản lý trạng thái online user](Online%20User%20Status%20%20-%20Quản%20lý%20trạng%20thái%20online%20user.md) 
-- [Todos](Todos.md) 
 ## Tìm kiếm
 - [Ultimate tic-tac-toe - Wikipedia](https://en.wikipedia.org/wiki/Ultimate_tic-tac-toe) 
 - [Trò chuyện với Google Bard](https://bard.google.com/chat/989f88e831db1649) 
